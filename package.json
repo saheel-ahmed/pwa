@@ -1,0 +1,22 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "progressive web app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saheel-ahmed/pwa.git"
+  },
+  "author": "Saheel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saheel-ahmed/pwa/issues"
+  },
+  "homepage": "https://github.com/saheel-ahmed/pwa#readme",
+  "dependencies": {
+    "workbox-sw": "^2.1.2"
+  }
+}

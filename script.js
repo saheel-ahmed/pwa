@@ -4,6 +4,15 @@ const postList = document.getElementById('postList');
 
 window.addEventListener("load", ev => {
     fnGetPost();
+
+    if('serviceWorker' in navigator){
+        try {
+            navigator.serviceWorker.register('sw.js');
+            console.info("SW Registered!");
+        } catch (error) {
+            console.error(error);
+        }
+    }
 });
 
 async function fnGetPost() {
